@@ -1,6 +1,6 @@
 cask "andrew-dictate" do
-  version "0.14.0"
-  sha256 "5488eb54f078a44499d97b57b6e28869a6fc37dec884cbf8bbd9e08d0e96eaca"
+  version "0.14.1"
+  sha256 "4e6c4cbee85e5f8eefb98a99b5d2e04b166fe485edc60f24ebb26b5349c590e9"
 
   url "https://github.com/suriyavasan/andrew-dictate/releases/download/suriya-#{version}/AndrewDictate-#{version}.dmg"
   name "Andrew Dictate"
