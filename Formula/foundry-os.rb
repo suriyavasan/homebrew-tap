@@ -4,7 +4,7 @@
 class FoundryOs < Formula
   desc "Self-hosted operating system for an autonomous company of AI agents"
   homepage "https://github.com/suriyavasan/foundry-os"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   livecheck do
@@ -17,19 +17,19 @@ class FoundryOs < Formula
     depends_on arch: :arm64
 
     on_arm do
-      url "https://github.com/suriyavasan/foundry-os/releases/download/v0.1.4/foundry-os-0.1.4-darwin-arm64.tar.gz", using: :nounzip
-      sha256 "df11adf329564f8afdae8d39f63d266d569a6c97f7f49c20fc032ac35889646b"
+      url "https://github.com/suriyavasan/foundry-os/releases/download/v0.1.5/foundry-os-0.1.5-darwin-arm64.tar.gz", using: :nounzip
+      sha256 "c6c0ec01a6af21e5e9601a0f5434d00df77434d1ed59101efe7ae715816f767b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/suriyavasan/foundry-os/releases/download/v0.1.4/foundry-os-0.1.4-linux-arm64.tar.gz", using: :nounzip
-      sha256 "6e67d8af7eca7283db922d167ff0bdf5819c1f1ff288bf05e1dddb28703789fd"
+      url "https://github.com/suriyavasan/foundry-os/releases/download/v0.1.5/foundry-os-0.1.5-linux-arm64.tar.gz", using: :nounzip
+      sha256 "3776e9c439d1cb9f63d6e87f353d4787f017f86612efcea83f587050e5d37f86"
     end
     on_intel do
-      url "https://github.com/suriyavasan/foundry-os/releases/download/v0.1.4/foundry-os-0.1.4-linux-x86_64.tar.gz", using: :nounzip
-      sha256 "70e72dad956ee263e868ba9461dd713b0e4123e170f043e1ccc1b36666870edf"
+      url "https://github.com/suriyavasan/foundry-os/releases/download/v0.1.5/foundry-os-0.1.5-linux-x86_64.tar.gz", using: :nounzip
+      sha256 "f94d28cee443dc8bd7ef47304de8dc036d18546d2de1dd8685d4d40f1ee3e480"
     end
   end
 
